@@ -418,6 +418,28 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <size key="freeformSize" width="414" height="1350"/>
+                    <connections>
+                        <outlet property="CEPTextField" destination="iy1-yb-zU0" id="2yZ-iS-yTp"/>
+                        <outlet property="CPFTextField" destination="uEN-Un-hS0" id="ynF-tX-fTb"/>
+                        <outlet property="CidadeTextField" destination="48F-Zr-joe" id="6AZ-Lt-VZc"/>
+                        <outlet property="ComidaFavTextField" destination="FEH-35-30a" id="C0t-JC-NX7"/>
+                        <outlet property="ComplementoTextField" destination="BOI-X2-Bp2" id="T92-K0-wA8"/>
+                        <outlet property="CorFavTextField" destination="QpI-uV-lU5" id="Qfi-Ut-QNu"/>
+                        <outlet property="DataNascTextField" destination="g3T-uZ-bvJ" id="R0N-bs-HI2"/>
+                        <outlet property="EmailTextField" destination="i3k-Lo-3Mp" id="3MX-nj-Di4"/>
+                        <outlet property="EndereçoTextField" destination="wZN-96-bTW" id="Uh2-Qt-W6v"/>
+                        <outlet property="EstadoCivilTextField" destination="qth-9u-uvv" id="A2g-fL-FA6"/>
+                        <outlet property="EstiloMusicalTextField" destination="3jR-fN-g8O" id="xMe-JT-sD4"/>
+                        <outlet property="NomeMaeTextField" destination="1IL-1K-8xP" id="fPF-Ts-520"/>
+                        <outlet property="NomePaiTextField" destination="Y7q-Sh-SRq" id="99D-Of-rWR"/>
+                        <outlet property="NomeTextField" destination="iiO-t2-nwl" id="kDp-Vm-fsS"/>
+                        <outlet property="NumeroTextField" destination="wI6-0Z-BaU" id="LMk-7x-9rx"/>
+                        <outlet property="PesoTextField" destination="AB3-Vs-2pe" id="hoo-hv-gKl"/>
+                        <outlet property="RGTextField" destination="TEb-sP-UIg" id="Wio-5K-RUw"/>
+                        <outlet property="SobremesaFavTextField" destination="5za-JG-T2s" id="0bD-59-QUF"/>
+                        <outlet property="TelefoneTextField" destination="2Xn-N9-wSZ" id="gMi-hJ-1UY"/>
+                        <outlet property="UFTextField" destination="3G4-57-gYO" id="EPd-W4-YNO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
