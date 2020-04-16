@@ -14,6 +14,7 @@
 		E003E1022447B05A00953326 /* Useless_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E003E1002447B05A00953326 /* Useless_App.xcdatamodeld */; };
 		E003E1042447B05D00953326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E003E1032447B05D00953326 /* Assets.xcassets */; };
 		E003E1072447B05D00953326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E003E1052447B05D00953326 /* LaunchScreen.storyboard */; };
+		E0A25A4E2448C5BD008B027A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A25A4D2448C5BD008B027A /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E003E1032447B05D00953326 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E003E1062447B05D00953326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E003E1082447B05D00953326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0A25A4D2448C5BD008B027A /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				E003E0F72447B05A00953326 /* AppDelegate.swift */,
 				E003E0F92447B05A00953326 /* SceneDelegate.swift */,
 				E003E0FB2447B05A00953326 /* ViewController.swift */,
+				E0A25A4D2448C5BD008B027A /* DataManager.swift */,
 				E003E0FD2447B05A00953326 /* Main.storyboard */,
 				E003E1032447B05D00953326 /* Assets.xcassets */,
 				E003E1052447B05D00953326 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E003E1022447B05A00953326 /* Useless_App.xcdatamodeld in Sources */,
+				E0A25A4E2448C5BD008B027A /* DataManager.swift in Sources */,
 				E003E0FC2447B05A00953326 /* ViewController.swift in Sources */,
 				E003E0F82447B05A00953326 /* AppDelegate.swift in Sources */,
 				E003E0FA2447B05A00953326 /* SceneDelegate.swift in Sources */,
