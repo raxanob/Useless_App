@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E287" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Person" representedClassName="Person" syncable="YES" codeGenerationType="class">
+        <attribute name="cep" optional="YES" attributeType="String"/>
+        <attribute name="cidade" optional="YES" attributeType="String"/>
+        <attribute name="comidaFav" optional="YES" attributeType="String"/>
+        <attribute name="complemento" optional="YES" attributeType="String"/>
+        <attribute name="corFav" optional="YES" attributeType="String"/>
+        <attribute name="cpf" optional="YES" attributeType="String"/>
+        <attribute name="dataNascimento" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="endereco" optional="YES" attributeType="String"/>
+        <attribute name="estadoCivil" optional="YES" attributeType="String"/>
+        <attribute name="estiloMusical" optional="YES" attributeType="String"/>
+        <attribute name="nome" optional="YES" attributeType="String"/>
+        <attribute name="nomeMae" optional="YES" attributeType="String"/>
+        <attribute name="nomePai" optional="YES" attributeType="String"/>
+        <attribute name="numero" optional="YES" attributeType="String"/>
+        <attribute name="peso" optional="YES" attributeType="String"/>
+        <attribute name="rg" optional="YES" attributeType="String"/>
+        <attribute name="sobremesaFav" optional="YES" attributeType="String"/>
+        <attribute name="telefone" optional="YES" attributeType="String"/>
+        <attribute name="uf" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Person" positionX="-63" positionY="-18" width="128" height="343"/>
+    </elements>
 </model>

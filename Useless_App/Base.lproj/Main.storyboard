@@ -19,11 +19,9 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="1300"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B41-Ni-G3H" userLabel="ContentView">
-<<<<<<< Updated upstream
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1350"/>
-=======
+
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1300.5"/>
->>>>>>> Stashed changes
+
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Eldiscleidson Almeida Poulino" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iiO-t2-nwl">
                                                 <rect key="frame" x="186.5" y="110.5" width="219.5" height="34"/>
@@ -311,6 +309,7 @@
                                             <constraint firstItem="60W-oV-7gp" firstAttribute="centerY" secondItem="wZN-96-bTW" secondAttribute="centerY" id="6pK-jC-phj"/>
                                             <constraint firstItem="3G4-57-gYO" firstAttribute="top" secondItem="48F-Zr-joe" secondAttribute="bottom" constant="20" id="6tN-gD-P1s"/>
                                             <constraint firstAttribute="trailing" secondItem="wI6-0Z-BaU" secondAttribute="trailing" constant="8" id="6xE-rQ-JLI"/>
+                                            <constraint firstAttribute="bottom" secondItem="GaU-1o-Eie" secondAttribute="bottom" constant="50" id="7ie-I6-06O"/>
                                             <constraint firstAttribute="trailing" secondItem="2Xn-N9-wSZ" secondAttribute="trailing" constant="8" id="7jt-Vc-X9Q"/>
                                             <constraint firstItem="D00-eI-qCK" firstAttribute="centerY" secondItem="1IL-1K-8xP" secondAttribute="centerY" id="7wt-QV-y2Y"/>
                                             <constraint firstItem="Uat-nP-L3w" firstAttribute="leading" secondItem="B41-Ni-G3H" secondAttribute="leading" constant="8" id="9BR-dO-PcN"/>
@@ -421,10 +420,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-<<<<<<< Updated upstream
-                    <size key="freeformSize" width="414" height="1350"/>
-=======
+
                     <size key="freeformSize" width="414" height="1300"/>
+
                     <connections>
                         <outlet property="CEPTextField" destination="iy1-yb-zU0" id="2yZ-iS-yTp"/>
                         <outlet property="CPFTextField" destination="uEN-Un-hS0" id="ynF-tX-fTb"/>
@@ -443,12 +441,13 @@
                         <outlet property="NumeroTextField" destination="wI6-0Z-BaU" id="LMk-7x-9rx"/>
                         <outlet property="PesoTextField" destination="AB3-Vs-2pe" id="hoo-hv-gKl"/>
                         <outlet property="RGTextField" destination="TEb-sP-UIg" id="Wio-5K-RUw"/>
+
                         <outlet property="SaveButton" destination="GaU-1o-Eie" id="vi7-Hs-50G"/>
+
                         <outlet property="SobremesaFavTextField" destination="5za-JG-T2s" id="0bD-59-QUF"/>
                         <outlet property="TelefoneTextField" destination="2Xn-N9-wSZ" id="gMi-hJ-1UY"/>
                         <outlet property="UFTextField" destination="3G4-57-gYO" id="EPd-W4-YNO"/>
                     </connections>
->>>>>>> Stashed changes
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
